@@ -2,17 +2,12 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
- 
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.0rc1/zepto.min.js"></script>
 
-
-  <title>JavaScript markov model that generates random descriptions of greek mythological figures. code by tuneum</title>
-
-  
-    
-
-
-
+  <title>JavaScript markov model that generates random descriptions of greek mythological figures. by tuneum</title>
 
 <script type='text/javascript'>//<![CDATA[
 window.onload=function(){
@@ -135,11 +130,10 @@ var descriptions = [
 
   "Zephyrus: god of the west wind.",
 
-  "ZEUS: god of the sky, lightning, thunder, law, order, justice, King of the Gods and the Father of Gods and men.",
-
-  "Aether: the god of the upper air and light.",
-"Ananke: the goddess of inevitability.”, 
-“Ananke: the goddess of compulsion and need.",
+"ZEUS: god of the sky, lightning, thunder, law, order, justice, King of the Gods and the Father of Gods and men.",
+"Aether: the god of the upper air and light.",
+"Ananke: the goddess of inevitability.",
+"Ananke: the goddess of compulsion and need.",
 "Chaos: the nothingness from which everything else came.",
 "Chaos: a void.",
 "Chronos: the god of time.",
@@ -157,13 +151,15 @@ var descriptions = [
 "Pontus: the god of the deepest, darkest part of the underworld.",
 "Tartarus: spirit of the sea.",
 "Thalassa: the god of death.",
-"Thanatos: the brother of Hypnos and Moros.",   
-“Thanatos: the personification of death.”
-“Thanatos: comprised of sleep, death, and doom.”
-“Morus: the being of impending doom.”
-“Morus: drives mortals to their deadly fate.”
-“Morus: omnipotent, omniscient, and omnipresent.”,
-“Morus: blesses mankind with the misery of seeing their destiny.”,
+"Thanatos: the brother of Hypnos and Moros.",
+"Thanatos: the personification of death.",
+"Thanatos: comprised of sleep, death, and doom.",
+"Morus: the being of impending doom.",
+"Morus: drives mortals to their deadly fate.",
+"Morus: omnipotent, omniscient, and omnipresent.",
+"Morus: blesses mankind with the misery of seeing their destiny.",
+ 
+
 
                 
 "Hyperion: titan of light.",
@@ -241,17 +237,6 @@ $('#generate').on('click', function() {
 <body>
   <div id="generated_description"></div>
 <button id="generate">Generate</button>
-
-  
-  <script>
-  // tell the embed parent frame the height of the content
-  if (window.parent && window.parent.parent){
-    window.parent.parent.postMessage(["resultsFrame", {
-      height: document.body.getBoundingClientRect().height,
-      slug: "tmL0y538"
-    }], "*")
-  }
-</script>
 
 </body>
 
